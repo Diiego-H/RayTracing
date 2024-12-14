@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/mesh/cube.obj</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>resources/mesh/luigi.obj</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>resources/mesh/mario.obj</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>resources/mesh/teapot2.obj</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>resources/tutorial4/background.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>resources/tutorial4/ubuntu.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>resources/tutorial4/dragonball.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>resources/tutorial4/sand.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>resources/tutorial4/tenis.jpg</file>
+    </qresource>
+</RCC>
