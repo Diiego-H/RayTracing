@@ -1,5 +1,5 @@
 # RayTracing
-University project: RayTracing in Computer Graphics (developed in C++ using GLM and Qt). The code cannot be run: it lacks the GLM library.
+University project: RayTracing in Computer Graphics (developed in C++ using GLM and Qt). The code cannot be run: it lacks the <a href="https://sourceforge.net/projects/glm.mirror/">GLM</a> library.
 
 <p align="center">
   <img src="/screenshots/escena-codi/escena-codi.gif?raw=true" alt="Escena Codi" />
