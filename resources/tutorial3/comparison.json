@@ -1,0 +1,81 @@
+{
+"scene": "Esferes",
+"typeScene": "VIRTUAL",
+"objects": [
+{
+  "name": "Esfera centre",
+  "type": "sphere",
+  "center": [0.0, 0.0, -1.0],
+  "radius": 0.5,
+  "material": {
+    "type": "transparent",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [0.1, 0.2, 0.5],
+    "ks": [1.0, 1.0, 1.0],
+    "shininess": 10.0,
+    "kt": [0.0, 0.0, 0.0],
+    "nut": 1.0
+    }
+},
+{
+  "name": "Esfera gran",
+  "type": "sphere",
+  "center": [0.0,-100.5,-1.0],
+  "radius": 100.0,
+  "material": {
+    "type": "tramsparent",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [0.8, 0.8, 0.0],
+    "ks": [1.0, 1.0, 1.0],
+    "shininess": 10.0,
+    "kt": [0.0, 0.0, 0.0],
+    "nut": 1.0
+    }
+},
+{
+"name": "Esfera transparent (dreta)",
+"type":  "sphere",
+  "center": [1.0,0.0,-1.0],
+  "radius": 0.5,
+  "material": {
+    "type": "transparent",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [0.8, 0.6, 0.2],
+    "ks": [0.7, 0.7, 0.7],
+    "shininess": 10.0,
+    "kt": [0.65, 0.65, 0.65],
+    "nut": 1.0
+    }
+},
+{
+"name": "Esfera transparent (esquerra)",
+"type":  "sphere",
+  "center": [-1.0,0.0,-1.0],
+  "radius": 0.5,
+  "material": {
+    "type": "transparent",
+    "ka": [0.8, 0.8, 0.8],
+    "kd": [1.0, 1.0, 1.0],
+    "ks": [1.0, 1.0, 1.0],
+    "shininess": 10.0,
+    "kt": [0.5, 0.5, 0.5],
+    "nut": 1.0
+    }
+  },
+ {
+"name": "Esfera llunyana opaca (dreta)",
+"type":  "sphere",
+  "center": [2,0.0,-2.5],
+  "radius": 0.5,
+  "material": {
+    "type": "transparent",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [0.1, 0.2, 0.5],
+    "ks": [1.0, 1.0, 1.0],
+    "shininess": 10.0,
+    "kt": [0.0, 0.0, 0.0],
+    "nut": 1.0
+    }
+ }
+]
+}

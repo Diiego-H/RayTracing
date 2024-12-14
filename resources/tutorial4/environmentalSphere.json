@@ -1,0 +1,36 @@
+{
+"scene": "EnvironmentalMappingSphere",
+"typeScene": "VIRTUAL",
+"objects": [
+  {
+    "name": "EsferaBackground",
+    "type": "EnvironmentalSphere",
+    "center": [0.0, 0.0, 0.0],
+    "radius": 15,
+    "material": {
+      "type": "MaterialTextura",
+      "ka": [0.0, 0.0, 0.0],
+      "kd": [1.0, 0.3, 0.5],
+      "ks": [0.7, 0.7, 0.7],
+      "shininess": 10.0,
+      "textureFile": "://resources/tutorial4/dragonball.png",
+      "opacity": 1.0
+      }
+  },
+  {
+    "name": "Esfera mitjana",
+    "type": "sphere",
+    "center": [-2.0, 0.0, -1],
+    "radius": 1.0,
+    "material": {
+      "type": "metal",
+      "ka": [0.2, 0.2, 0.2],
+      "kd": [0.7, 0.6, 0.5],
+      "ks": [0.7, 0.7, 0.7],
+      "shininess": 500.0,
+      "kt": [0.0, 0.0, 0.0],
+      "nut": 0.0
+      }
+  }
+]
+}

@@ -1,0 +1,39 @@
+{
+    "scene": "EnviromentalPlane",
+    "typeScene": "VIRTUAL",
+    "objects": [
+    {
+      "name": "ubuntu_background",
+      "type": "FITTEDPLANE",
+      "normal": [0.0, 0.0, 1.0],
+      "point": [0.0, 0.0, 0.0],
+      "pmin": [-8.0, -8.0],
+      "pmax": [8.0, 8.0],
+      "material": {
+        "type": "MaterialTextura",
+        "ka": [0.2, 0.2, 0.2],
+        "kd": [0.7, 0.6, 0.5],
+        "ks": [0.7, 0.7, 0.7],
+        "shininess": 10.0,
+        "textureFile": "://resources/tutorial4/background.png",
+        "opacity": 1.0
+        }
+    },
+    {
+      "name": "Esfera mitjana",
+      "type": "sphere",
+      "center": [-1.0, 0.0, -2],
+      "radius": 1.0,
+      "material": {
+        "type": "metal",
+        "ka": [0.2, 0.2, 0.2],
+        "kd": [0.7, 0.6, 0.5],
+        "ks": [0.7, 0.7, 0.7],
+        "shininess": 10.0,
+        "kt": [0.0, 0.0, 0.0],
+        "nut": 0.0
+        }
+    }
+    ]
+}
+    

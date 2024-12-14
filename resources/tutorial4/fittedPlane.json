@@ -1,0 +1,24 @@
+{
+    "scene": "FittedPlane",
+    "typeScene": "VIRTUAL",
+    "objects": [
+    {
+      "name": "textura_folder",
+      "type": "FITTEDPLANE",
+      "normal": [0.0, 0.0, 1.0],
+      "point": [0.0, 0.0, 0.0],
+      "pmin": [-3.0, -3.0],
+      "pmax": [2.0, 2.0],
+      "material": {
+        "type": "MaterialTextura",
+        "ka": [0.2, 0.2, 0.2],
+        "kd": [0.7, 0.6, 0.5],
+        "ks": [0.7, 0.7, 0.7],
+        "shininess": 10.0,
+        "textureFile": "://resources/tutorial4/ubuntu.png",
+        "opacity": 1.0
+        }
+    }
+    ]
+}
+    

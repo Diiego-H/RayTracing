@@ -1,0 +1,44 @@
+{
+"scene": "Esferes",
+"typeScene": "VIRTUAL",
+"objects": [
+{
+  "name": "Esfera petita",
+  "type": "sphere",
+  "center": [0.0, 0.0, 0.0],
+  "radius": 0.5,
+  "material": {
+    "type": "lambertian",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [1.0, 0.3, 0.3],
+    "kdtoon": [[1.0, 0.6, 0.6],
+               [0.8, 0.2, 0.2],
+               [0.5, 0.1, 0.1],
+               [0.1, 0.0, 0.0]],
+    "ks": [1.0, 1.0, 1.0],
+    "shininess": 1.0,
+    "kt": [0.5, 0.5, 0.5],
+    "nut": 0.0
+    }
+},
+{
+  "name": "Esfera gran",
+  "type": "sphere",
+  "center": [0.0,-100.5,-1.0],
+  "radius": 100.0,
+  "material": {
+    "type": "lambertian",
+    "ka": [0.5, 0.5, 0.5],
+    "kd": [0.8, 0.8, 0.0],
+    "kdtoon": [[1.0, 1.0, 0.6],
+               [0.8, 0.8, 0.2],
+               [0.5, 0.5, 0.1],
+               [0.1, 0.1, 0.0]],
+    "ks": [1.0, 1.0, 1.0],
+    "shininess": 100.0,
+    "kt": [0.9, 0.9, 0.9],
+    "nut": 0.0
+    }
+}
+]
+}

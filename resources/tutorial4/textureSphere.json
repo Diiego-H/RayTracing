@@ -1,0 +1,22 @@
+{
+    "scene": "UbuntuSphere",
+    "typeScene": "VIRTUAL",
+    "objects": [
+    {
+      "name": "textura_ubuntu",
+      "type": "SPHERE",
+      "center": [1.0, 0.0, 0.0],
+      "radius": 3.0,
+      "material": {
+        "type": "MaterialTextura",
+        "ka": [0.2, 0.2, 0.2],
+        "kd": [0.7, 0.6, 0.5],
+        "ks": [0.7, 0.7, 0.7],
+        "shininess": 10.0,
+        "textureFile": "://resources/tutorial4/ubuntu.png",
+        "opacity": 1.0
+        }
+    }
+    ]
+}
+    

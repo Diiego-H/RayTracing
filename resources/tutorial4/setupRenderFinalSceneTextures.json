@@ -1,0 +1,62 @@
+{
+    "camera": {
+        "lookFrom": [10.0, 10.0, 75.0],
+        "lookAt": [-20, -5, 40],
+        "vup": [0, 1, 0],
+        "vfov": 70.0,
+        "aspectRatio": 1.4,
+        "pixelsX": 400
+    },
+    "globalLight": [ 0.1, 0.1, 0.1],
+    "lights" : [
+    {
+     "type": "pointLight",
+      "Ia": [0.1, 0.1, 0.1],
+      "Id": [0.7, 0.7, 0.7],
+      "Is": [0.1, 0.1, 0.1],
+      "a": 0.3,
+      "b": 0.0,
+      "c": 0.0005,
+      "position": [5, 35, 70]
+      },
+      {
+        "type": "pointLight",
+        "Ia": [0.1, 0.1, 0.1],
+        "Id": [0.7, 0.7, 0.7],
+        "Is": [1.0, 1.0, 1.0],
+        "a": 0.3,
+        "b": 0.0,
+        "c": 0.01,
+        "position": [20, 25, 60]
+        },
+        {
+        "type": "pointLight",
+        "Ia": [0.1, 0.1, 0.1],
+        "Id": [0.7, 0.7, 0.7],
+        "Is": [1.0, 1.0, 1.0],
+        "a": 0.3,
+        "b": 0.0,
+        "c": 0.01,
+        "position": [15, 15, 10]
+        },
+        {
+            "type": "pointLight",
+            "Ia": [0.1, 0.1, 0.1],
+            "Id": [0.7, 0.7, 0.7],
+            "Is": [1.0, 1.0, 1.0],
+            "a": 0.3,
+            "b": 0.0,
+            "c": 0.01,
+            "position": [15, 15, -35]
+            } 
+         
+     ],
+     "background": true,
+     "shadows": true,
+     "numSamples": 10,
+     "MAXDEPTH": 3,
+     "colorTopBackground": [0.3, 0.4, 1],
+     "colorDownBackground": [ 1.0, 1.0, 1.0],
+     "shading": "BlinnPhong"
+    }
+    
